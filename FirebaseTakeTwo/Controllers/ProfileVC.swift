@@ -98,7 +98,9 @@ class ProfileVC: UIViewController {
         ])
     }
     
-    
+    private func buttonElement(){
+        editButton.setTitleColor(<#T##color: UIColor?##UIColor?#>, for: <#T##UIControl.State#>)
+    }
     
     
 

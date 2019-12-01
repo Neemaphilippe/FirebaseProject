@@ -20,6 +20,14 @@ class LogInVC: UIViewController {
             label.textAlignment = .center
             return label
         }()
+    
+    lazy var logoImage: UIImage = {
+        var image = #imageLiteral(resourceName: "pursuitlogo")
+        
+//        var image = UIImage(named: "pursuitlogo")
+//        var imageView = UIImageView(image: pursuitlogo)
+        return image
+    }()
         
         lazy var emailTextField: UITextField = {
             let textField = UITextField()
@@ -171,10 +179,11 @@ class LogInVC: UIViewController {
             setupLogoLabel()
             setupCreateAccountButton()
             setupLoginStackView()
+            
         }
         
         private func setupLogoLabel() {
-            view.addSubview(logoLabel)
+//            view.addSubview(logoLabel)
             
             logoLabel.translatesAutoresizingMaskIntoConstraints = false
             NSLayoutConstraint.activate([

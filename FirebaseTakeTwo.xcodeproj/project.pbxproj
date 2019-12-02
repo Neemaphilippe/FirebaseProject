@@ -30,6 +30,8 @@
 		55AB256F23939D17002549A3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB256E23939D17002549A3 /* FeedCell.swift */; };
 		55AB257123947C3A002549A3 /* GramTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257023947C3A002549A3 /* GramTabBarController.swift */; };
 		55AB257923949643002549A3 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257823949643002549A3 /* AppUser.swift */; };
+		55AB257B2394979A002549A3 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257A2394979A002549A3 /* Comment.swift */; };
+		55AB257D239497C2002549A3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257C239497C2002549A3 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		55AB256E23939D17002549A3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		55AB257023947C3A002549A3 /* GramTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GramTabBarController.swift; sourceTree = "<group>"; };
 		55AB257823949643002549A3 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		55AB257A2394979A002549A3 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		55AB257C239497C2002549A3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9835586EC550C0C1B4A45FF6 /* Pods-FirebaseTakeTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTakeTwo.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTakeTwo/Pods-FirebaseTakeTwo.release.xcconfig"; sourceTree = "<group>"; };
 		CA3D5407C8F643ADC4C1C98D /* Pods-FirebaseTakeTwoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTakeTwoTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTakeTwoTests/Pods-FirebaseTakeTwoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E8A4B11220DD9758F6035E3E /* Pods-FirebaseTakeTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTakeTwo.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTakeTwo/Pods-FirebaseTakeTwo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				55AB257823949643002549A3 /* AppUser.swift */,
+				55AB257A2394979A002549A3 /* Comment.swift */,
+				55AB257C239497C2002549A3 /* Post.swift */,
 			);
 			name = "Models ";
 			path = ..;
@@ -397,6 +403,7 @@
 				55AB2530238DD7FF002549A3 /* AppDelegate.swift in Sources */,
 				55AB255C238DDA60002549A3 /* Comment.swift in Sources */,
 				55AB2532238DD7FF002549A3 /* SceneDelegate.swift in Sources */,
+				55AB257B2394979A002549A3 /* Comment.swift in Sources */,
 				55AB257923949643002549A3 /* AppUser.swift in Sources */,
 				55AB2568238DDF36002549A3 /* Validations.swift in Sources */,
 				55AB256C23939C16002549A3 /* FeedVC.swift in Sources */,
@@ -405,6 +412,7 @@
 				55AB256F23939D17002549A3 /* FeedCell.swift in Sources */,
 				55AB257123947C3A002549A3 /* GramTabBarController.swift in Sources */,
 				55AB255B238DDA60002549A3 /* AppUser.swift in Sources */,
+				55AB257D239497C2002549A3 /* Post.swift in Sources */,
 				55AB2561238DDA7C002549A3 /* FirebaseStorage.swift in Sources */,
 				55AB255A238DDA60002549A3 /* Post.swift in Sources */,
 			);

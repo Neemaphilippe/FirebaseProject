@@ -10,6 +10,8 @@
 		0CA692185D3A72E0F70BBF0B /* Pods_FirebaseTakeTwoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476F332F7709609DEEDDC749 /* Pods_FirebaseTakeTwoTests.framework */; };
 		424695F749B3551152F71A0E /* Pods_FirebaseTakeTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0C7D8239462EF1A5327AB1 /* Pods_FirebaseTakeTwo.framework */; };
 		552896D82394A39D007F2D74 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552896D72394A39D007F2D74 /* EditProfileVC.swift */; };
+		552896DB2394BD51007F2D74 /* CreateImagePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552896DA2394BD51007F2D74 /* CreateImagePostVC.swift */; };
+		552896DD2394BD70007F2D74 /* ImageDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552896DC2394BD70007F2D74 /* ImageDetailVC.swift */; };
 		55AB2530238DD7FF002549A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB252F238DD7FF002549A3 /* AppDelegate.swift */; };
 		55AB2532238DD7FF002549A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB2531238DD7FF002549A3 /* SceneDelegate.swift */; };
 		55AB2534238DD7FF002549A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB2533238DD7FF002549A3 /* ViewController.swift */; };
@@ -28,7 +30,6 @@
 		55AB2568238DDF36002549A3 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB2567238DDF36002549A3 /* Validations.swift */; };
 		55AB256C23939C16002549A3 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB256B23939C16002549A3 /* FeedVC.swift */; };
 		55AB256F23939D17002549A3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB256E23939D17002549A3 /* FeedCell.swift */; };
-		55AB257123947C3A002549A3 /* GramTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257023947C3A002549A3 /* GramTabBarController.swift */; };
 		55AB258023949C5E002549A3 /* CellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257F23949C5E002549A3 /* CellIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		1E0C7D8239462EF1A5327AB1 /* Pods_FirebaseTakeTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTakeTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		476F332F7709609DEEDDC749 /* Pods_FirebaseTakeTwoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTakeTwoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		552896D72394A39D007F2D74 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		552896DA2394BD51007F2D74 /* CreateImagePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateImagePostVC.swift; sourceTree = "<group>"; };
+		552896DC2394BD70007F2D74 /* ImageDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailVC.swift; sourceTree = "<group>"; };
 		55AB252C238DD7FF002549A3 /* FirebaseTakeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTakeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AB252F238DD7FF002549A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55AB2531238DD7FF002549A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +71,6 @@
 		55AB2567238DDF36002549A3 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
 		55AB256B23939C16002549A3 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		55AB256E23939D17002549A3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
-		55AB257023947C3A002549A3 /* GramTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GramTabBarController.swift; sourceTree = "<group>"; };
 		55AB257F23949C5E002549A3 /* CellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiers.swift; sourceTree = "<group>"; };
 		9835586EC550C0C1B4A45FF6 /* Pods-FirebaseTakeTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTakeTwo.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTakeTwo/Pods-FirebaseTakeTwo.release.xcconfig"; sourceTree = "<group>"; };
 		CA3D5407C8F643ADC4C1C98D /* Pods-FirebaseTakeTwoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTakeTwoTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTakeTwoTests/Pods-FirebaseTakeTwoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		552896D92394BB0D007F2D74 /* Image Posts */ = {
+			isa = PBXGroup;
+			children = (
+				552896DA2394BD51007F2D74 /* CreateImagePostVC.swift */,
+				552896DC2394BD70007F2D74 /* ImageDetailVC.swift */,
+			);
+			path = "Image Posts";
+			sourceTree = "<group>";
+		};
 		55AB2523238DD7FE002549A3 = {
 			isa = PBXGroup;
 			children = (
@@ -124,8 +135,9 @@
 				55AB255D238DDA6D002549A3 /* Firebase */,
 				55AB2556238DDA41002549A3 /* Models */,
 				55AB2553238DD9A7002549A3 /* Controllers */,
-				55AB252F238DD7FF002549A3 /* AppDelegate.swift */,
+				552896D92394BB0D007F2D74 /* Image Posts */,
 				55AB2531238DD7FF002549A3 /* SceneDelegate.swift */,
+				55AB252F238DD7FF002549A3 /* AppDelegate.swift */,
 				55AB2533238DD7FF002549A3 /* ViewController.swift */,
 				55AB2538238DD800002549A3 /* Assets.xcassets */,
 				55AB253A238DD800002549A3 /* LaunchScreen.storyboard */,
@@ -148,7 +160,6 @@
 		55AB2553238DD9A7002549A3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				55AB257023947C3A002549A3 /* GramTabBarController.swift */,
 				55AB2554238DD9D6002549A3 /* LoginVC.swift */,
 				55AB2564238DDEC6002549A3 /* SignUpVC.swift */,
 				552896D72394A39D007F2D74 /* EditProfileVC.swift */,
@@ -391,18 +402,19 @@
 			files = (
 				55AB2555238DD9D6002549A3 /* LoginVC.swift in Sources */,
 				55AB2534238DD7FF002549A3 /* ViewController.swift in Sources */,
+				552896DD2394BD70007F2D74 /* ImageDetailVC.swift in Sources */,
 				55AB2563238DDA7C002549A3 /* FirebaseAuth.swift in Sources */,
 				55AB2565238DDEC6002549A3 /* SignUpVC.swift in Sources */,
 				55AB2530238DD7FF002549A3 /* AppDelegate.swift in Sources */,
 				55AB255C238DDA60002549A3 /* Comment.swift in Sources */,
 				55AB2532238DD7FF002549A3 /* SceneDelegate.swift in Sources */,
 				55AB258023949C5E002549A3 /* CellIdentifiers.swift in Sources */,
+				552896DB2394BD51007F2D74 /* CreateImagePostVC.swift in Sources */,
 				55AB2568238DDF36002549A3 /* Validations.swift in Sources */,
 				552896D82394A39D007F2D74 /* EditProfileVC.swift in Sources */,
 				55AB256C23939C16002549A3 /* FeedVC.swift in Sources */,
 				55AB2562238DDA7C002549A3 /* Firestore.swift in Sources */,
 				55AB256F23939D17002549A3 /* FeedCell.swift in Sources */,
-				55AB257123947C3A002549A3 /* GramTabBarController.swift in Sources */,
 				55AB255B238DDA60002549A3 /* AppUser.swift in Sources */,
 				55AB2561238DDA7C002549A3 /* FirebaseStorage.swift in Sources */,
 				55AB255A238DDA60002549A3 /* Post.swift in Sources */,

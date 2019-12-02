@@ -10,6 +10,18 @@ import UIKit
 
 class ProfileVC: UIViewController {
     
+    var user: AppUser!
+       var isCurrentUser = false
+       
+       var posts = [Post]() {
+           didSet {
+               DispatchQueue.main.async { [weak self] in
+                   self?.tableView.reloadSections(IndexSet(integer: 1), with: .none)
+               }
+           }
+       }
+       
+    
    //MARK: UI OBJECTS
     lazy var profileLabel: UILabel = {
         let label = UILabel()

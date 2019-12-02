@@ -153,7 +153,6 @@ class LogInVC: UIViewController {
             guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
                 let sceneDelegate = windowScene.delegate as? SceneDelegate, let window = sceneDelegate.window
                 else {
-                    //MARK: TODO - handle could not swap root view controller
                     return
             }
             

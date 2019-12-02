@@ -79,8 +79,6 @@ class LogInVC: UIViewController {
     
     
     
-    //MARK: Lifecycle methods
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.2540600896, green: 0.2573271394, blue: 0.9170498252, alpha: 1)
@@ -88,7 +86,7 @@ class LogInVC: UIViewController {
         setupSubViews()
     }
     
-    //MARK: Obj-C methods
+    //MARK: OBJ-C
     
     @objc func validateFields() {
         guard emailTextField.hasText, passwordTextField.hasText else {
@@ -127,7 +125,7 @@ class LogInVC: UIViewController {
         }
     }
     
-    //MARK: Private methods
+    //MARK: PRIVATE FUNCTIONS
     
     private func addViews(){
         view.addSubview(logoLabel)
@@ -159,7 +157,6 @@ class LogInVC: UIViewController {
         }
     }
     
-    //MARK: UI Setup
     
     private func setupSubViews() {
         setupLogoLabel()
@@ -214,10 +211,6 @@ class LogInVC: UIViewController {
             createAccountButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             createAccountButton.heightAnchor.constraint(equalToConstant: 50)])
     }
-    
-    
-    
-    
     
     
 }

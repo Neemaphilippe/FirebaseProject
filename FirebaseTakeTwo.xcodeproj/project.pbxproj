@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CA692185D3A72E0F70BBF0B /* Pods_FirebaseTakeTwoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476F332F7709609DEEDDC749 /* Pods_FirebaseTakeTwoTests.framework */; };
 		424695F749B3551152F71A0E /* Pods_FirebaseTakeTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0C7D8239462EF1A5327AB1 /* Pods_FirebaseTakeTwo.framework */; };
+		552896D82394A39D007F2D74 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552896D72394A39D007F2D74 /* EditProfileVC.swift */; };
 		55AB2530238DD7FF002549A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB252F238DD7FF002549A3 /* AppDelegate.swift */; };
 		55AB2532238DD7FF002549A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB2531238DD7FF002549A3 /* SceneDelegate.swift */; };
 		55AB2534238DD7FF002549A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB2533238DD7FF002549A3 /* ViewController.swift */; };
@@ -25,12 +26,9 @@
 		55AB2563238DDA7C002549A3 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB2560238DDA7C002549A3 /* FirebaseAuth.swift */; };
 		55AB2565238DDEC6002549A3 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB2564238DDEC6002549A3 /* SignUpVC.swift */; };
 		55AB2568238DDF36002549A3 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB2567238DDF36002549A3 /* Validations.swift */; };
-		55AB256A2393123E002549A3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB25692393123E002549A3 /* ProfileVC.swift */; };
 		55AB256C23939C16002549A3 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB256B23939C16002549A3 /* FeedVC.swift */; };
 		55AB256F23939D17002549A3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB256E23939D17002549A3 /* FeedCell.swift */; };
 		55AB257123947C3A002549A3 /* GramTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257023947C3A002549A3 /* GramTabBarController.swift */; };
-		55AB257923949643002549A3 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257823949643002549A3 /* AppUser.swift */; };
-		55AB257D239497C2002549A3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257C239497C2002549A3 /* Post.swift */; };
 		55AB258023949C5E002549A3 /* CellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB257F23949C5E002549A3 /* CellIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +45,7 @@
 /* Begin PBXFileReference section */
 		1E0C7D8239462EF1A5327AB1 /* Pods_FirebaseTakeTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTakeTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		476F332F7709609DEEDDC749 /* Pods_FirebaseTakeTwoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTakeTwoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		552896D72394A39D007F2D74 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
 		55AB252C238DD7FF002549A3 /* FirebaseTakeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTakeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AB252F238DD7FF002549A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55AB2531238DD7FF002549A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,12 +66,9 @@
 		55AB2560238DDA7C002549A3 /* FirebaseAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
 		55AB2564238DDEC6002549A3 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		55AB2567238DDF36002549A3 /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
-		55AB25692393123E002549A3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		55AB256B23939C16002549A3 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		55AB256E23939D17002549A3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		55AB257023947C3A002549A3 /* GramTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GramTabBarController.swift; sourceTree = "<group>"; };
-		55AB257823949643002549A3 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
-		55AB257C239497C2002549A3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		55AB257F23949C5E002549A3 /* CellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiers.swift; sourceTree = "<group>"; };
 		9835586EC550C0C1B4A45FF6 /* Pods-FirebaseTakeTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTakeTwo.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTakeTwo/Pods-FirebaseTakeTwo.release.xcconfig"; sourceTree = "<group>"; };
 		CA3D5407C8F643ADC4C1C98D /* Pods-FirebaseTakeTwoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTakeTwoTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTakeTwoTests/Pods-FirebaseTakeTwoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				55AB257E23949C3E002549A3 /* Identifiers */,
-				55AB25772394962A002549A3 /* Models  */,
 				55AB256D23939CDA002549A3 /* Views */,
 				55AB255D238DDA6D002549A3 /* Firebase */,
 				55AB2556238DDA41002549A3 /* Models */,
@@ -156,7 +151,7 @@
 				55AB257023947C3A002549A3 /* GramTabBarController.swift */,
 				55AB2554238DD9D6002549A3 /* LoginVC.swift */,
 				55AB2564238DDEC6002549A3 /* SignUpVC.swift */,
-				55AB25692393123E002549A3 /* ProfileVC.swift */,
+				552896D72394A39D007F2D74 /* EditProfileVC.swift */,
 				55AB256B23939C16002549A3 /* FeedVC.swift */,
 			);
 			path = Controllers;
@@ -196,16 +191,6 @@
 				55AB256E23939D17002549A3 /* FeedCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		55AB25772394962A002549A3 /* Models  */ = {
-			isa = PBXGroup;
-			children = (
-				55AB257823949643002549A3 /* AppUser.swift */,
-				55AB257C239497C2002549A3 /* Post.swift */,
-			);
-			name = "Models ";
-			path = ..;
 			sourceTree = "<group>";
 		};
 		55AB257E23949C3E002549A3 /* Identifiers */ = {
@@ -412,15 +397,13 @@
 				55AB255C238DDA60002549A3 /* Comment.swift in Sources */,
 				55AB2532238DD7FF002549A3 /* SceneDelegate.swift in Sources */,
 				55AB258023949C5E002549A3 /* CellIdentifiers.swift in Sources */,
-				55AB257923949643002549A3 /* AppUser.swift in Sources */,
 				55AB2568238DDF36002549A3 /* Validations.swift in Sources */,
+				552896D82394A39D007F2D74 /* EditProfileVC.swift in Sources */,
 				55AB256C23939C16002549A3 /* FeedVC.swift in Sources */,
-				55AB256A2393123E002549A3 /* ProfileVC.swift in Sources */,
 				55AB2562238DDA7C002549A3 /* Firestore.swift in Sources */,
 				55AB256F23939D17002549A3 /* FeedCell.swift in Sources */,
 				55AB257123947C3A002549A3 /* GramTabBarController.swift in Sources */,
 				55AB255B238DDA60002549A3 /* AppUser.swift in Sources */,
-				55AB257D239497C2002549A3 /* Post.swift in Sources */,
 				55AB2561238DDA7C002549A3 /* FirebaseStorage.swift in Sources */,
 				55AB255A238DDA60002549A3 /* Post.swift in Sources */,
 			);

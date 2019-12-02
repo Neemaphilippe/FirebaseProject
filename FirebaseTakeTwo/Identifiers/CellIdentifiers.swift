@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 enum CellIdentifier: String {
     case postListCell
     case userListCell

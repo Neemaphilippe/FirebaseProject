@@ -59,7 +59,6 @@ class SignUpViewController: UIViewController {
         return button
     }()
     
-    //MARK: Lifecycle methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,7 +67,7 @@ class SignUpViewController: UIViewController {
         setupCreateStackView()
     }
     
-    //MARK: Obj-C Methods
+    //MARK: OBJ-C
     
     @objc func validateFields() {
         guard emailTextField.hasText, passwordTextField.hasText else {
@@ -101,7 +100,7 @@ class SignUpViewController: UIViewController {
         }
     }
     
-    //MARK: Private methods
+    //MARK: PRIVATE FUNCTIONS
     
     private func showAlert(with title: String, and message: String) {
         let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -135,8 +134,6 @@ class SignUpViewController: UIViewController {
             self.showAlert(with: "Error creating user", and: "An error occured while creating new account \(error)")
         }
     }
-//    
-    //MARK: UI Setup
     
     private func setupHeaderLabel() {
         view.addSubview(headerLabel)
